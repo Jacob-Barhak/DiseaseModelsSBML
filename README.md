@@ -1,7 +1,7 @@
 Disease Models Using SBML Array
 ===============================
 
-This repository implements several simple disease models using and extension to the Systems Biology Markup Language (SBML) called [SBML Array] (http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/arrays "SBML Array Package Information")
+This repository implements several simple disease models using and extension to the Systems Biology Markup Language (SBML) called [SBML Array](http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/arrays)
 
 The purpose of this work is to show that it is possible to generate reproducible disease models using the SBML array package.
 
@@ -11,7 +11,7 @@ The models are implemented using two systems:
 
 These examples are supporting the paper titled: "Disease Models using the System Biology Markup Language (SBML)".
 
-This work extends previous work on [sharing disease models](https://github.com/Jacob-Barhak/SharingDiseaseModels Sharing Disease Models GitHub Repository) to support micro-simulation.
+This work extends previous work on [sharing disease models](https://github.com/Jacob-Barhak/SharingDiseaseModels) to support micro-simulation.
 
 
 FILES:
