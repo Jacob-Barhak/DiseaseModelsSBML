@@ -1,7 +1,7 @@
-Disease Models Using SBML Array
-===============================
+Disease Models Using SBML Arrays
+================================
 
-This repository implements several simple disease models using and extension to the Systems Biology Markup Language (SBML) called [SBML Array](http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/arrays)
+This repository implements several simple disease models using and extension to the Systems Biology Markup Language (SBML) called [SBML Arrays](http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/arrays)
 
 The purpose of this work is to show that it is possible to generate reproducible disease models using the SBML array package.
 
@@ -101,9 +101,9 @@ This work used the MIcro Simulation Tool (MIST) that is based on IEST. The IEST 
 
 LICENSE
 -------
-This file is part of the SBML Array Examples. The SBML Array Examples is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. The SBML Array is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+This file is part of the SBML Arrays Examples. The SBML Arrays Examples is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. The SBML Arrays is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 
 ADDITIONAL CLARIFICATION
 
-The SBML Array Examples is distributed in the hope that it will be useful, but "as is" and WITHOUT ANY WARRANTY of any kind, including any warranty that it will not infringe on any property rights of another party or the IMPLIED WARRANTIES OF MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS assume no responsibilities with respect to the use of the SBML Array Examples.
+The SBML Arrays Examples is distributed in the hope that it will be useful, but "as is" and WITHOUT ANY WARRANTY of any kind, including any warranty that it will not infringe on any property rights of another party or the IMPLIED WARRANTIES OF MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS assume no responsibilities with respect to the use of the SBML Arrays Examples.
 See the GNU Lesser General Public License for more details.
