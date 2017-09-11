@@ -59,8 +59,7 @@ The following tools and versions were used to generate the results in this paper
 0. Optional: You can regenerate the SBML files already provided in this repository using the command: python SBMLExamplesForPaper.py
 1. Install IbioSim using the instructions in: http://www.async.ece.utah.edu/ibiosim
 2. Run iBioSim
-3. Select from the menu: File->New->Project and write a new directory name where the project wil be hosted and press ok
-4. Select from the menu: File->Import and select the Exampl?.xml file to load, ignore SBML errors appearing and press ok.
+3. Select from the menu: File->Open Project. Select the project in docs/iBioSim_files/projects.
 
 
 VERSION HISTORY:
@@ -81,7 +80,7 @@ Chris Myers
 myers@ece.utah.edu
 
 Leandro Watanabe
-leandrohw@gmail.com
+l.watanabe@utah.edu
 
 
 ### MIST
