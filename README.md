@@ -52,7 +52,7 @@ Each file uses a different system and format. To run some of the files to reprod
 The following tools and versions were used to generate the results in this paper:
 * MIST Version 0.92.0.0 - Install from: https://github.com/Jacob-Barhak/MIST executed on a Windows 7 (64 bit) machine using Python 2.7.11 | Anaconda 2.4.1 (64-bit)
 * SBMLExamplesForPaper.py required libsbml experimental version 5.15.0 that can be obtained from https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/ for this work it was executed on a Windows 7 (64 bit) machine using Python 2.7.11 | Anaconda 2.4.1 (64-bit) 
-* iBioSim - Freely available for download at: http://www.async.ece.utah.edu/ibiosim
+* iBioSim Version 3.0.0 - Freely available for download at: http://www.async.ece.utah.edu/ibiosim
 
 ### For MIST files
 1. Install MIST
