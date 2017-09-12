@@ -1,14 +1,20 @@
 #*******************************************************************************
-#  
-# This file is part of iBioSim. Please visit <http://www.async.ece.utah.edu/ibiosim>
-# for the latest version of iBioSim.
 #
-# Copyright (C) 2017 University of Utah
+# Copyright (C) 2017 Jacob Barhak, Leandro Watanabe, Chris Myers 
+# This file is part of the SBML Arrays Examples.
 #
-# This library is free software; you can redistribute it and/or modify it
-# under the terms of the Apache License. A copy of the license agreement is provided
-# in the file named "LICENSE.txt" included with this software distribution
-# and also available online at <http://www.async.ece.utah.edu/ibiosim/License>.
+# This script is free software: you can redistribute it and/or 
+# modify it under the terms of the GNU Lesser General Public License as 
+# published by the Free Software Foundation, either version 3 of the 
+# License, or (at your option) any later version.
+#
+# ADDITIONAL CLARIFICATION
+# This script is distributed in the hope that it will be 
+# useful, but "as is" and WITHOUT ANY WARRANTY of any kind, including any 
+# warranty that it will not infringe on any property rights of another party 
+# or the IMPLIED WARRANTIES OF MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+# PURPOSE. THE AUTHORS assume no responsibilities with respect to the use 
+# of it.
 #  
 #*******************************************************************************
 
