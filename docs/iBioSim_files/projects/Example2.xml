@@ -1,0 +1,2022 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" arrays:required="true" comp:required="true" distrib:required="true" fbc:required="false" layout:required="false" level="3" version="1" xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:distrib="http://www.sbml.org/sbml/level3/version1/distrib/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1">
+  <model fbc:strict="false" id="Example2" metaid="iBioSim1">
+    <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <layout:layout layout:id="iBioSim">
+        <layout:dimensions layout:depth="0" layout:height="340" layout:width="370"/>
+        <layout:listOfAdditionalGraphicalObjects>
+          <layout:generalGlyph layout:id="Glyph__event0" layout:reference="event0">
+            <layout:boundingBox>
+              <layout:position layout:x="20" layout:y="35"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event0__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="57.5" layout:y="47.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Time" layout:id="Glyph__event0__substrate__Time" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="295" layout:y="175"/>
+                      <layout:end layout:x="57.5" layout:y="47.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Time" layout:id="Glyph__event0__product__Time" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="57.5" layout:y="47.5"/>
+                      <layout:end layout:x="295" layout:y="175"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event0__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="57.5" layout:y="47.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event1" layout:reference="event1">
+            <layout:boundingBox>
+              <layout:position layout:x="40" layout:y="70"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event1__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="77.5" layout:y="82.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event1__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="77.5" layout:y="82.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event2" layout:reference="event2">
+            <layout:boundingBox>
+              <layout:position layout:x="60" layout:y="105"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event2__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="97.5" layout:y="117.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Dead" layout:id="Glyph__event2__substrate__Dead" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="355" layout:y="295"/>
+                      <layout:end layout:x="97.5" layout:y="117.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Time" layout:id="Glyph__event2__substrate__Time" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="295" layout:y="175"/>
+                      <layout:end layout:x="97.5" layout:y="117.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event2__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="97.5" layout:y="117.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event3" layout:reference="event3">
+            <layout:boundingBox>
+              <layout:position layout:x="80" layout:y="140"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event3__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="117.5" layout:y="152.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event3__product__Random" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="117.5" layout:y="152.5"/>
+                      <layout:end layout:x="275" layout:y="135"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event3__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="117.5" layout:y="152.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event4" layout:reference="event4">
+            <layout:boundingBox>
+              <layout:position layout:x="100" layout:y="175"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event4__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="137.5" layout:y="187.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Healthy" layout:id="Glyph__event4__substrate__Healthy" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="315" layout:y="215"/>
+                      <layout:end layout:x="137.5" layout:y="187.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event4__substrate__Random" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="275" layout:y="135"/>
+                      <layout:end layout:x="137.5" layout:y="187.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Healthy" layout:id="Glyph__event4__product__Healthy" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="137.5" layout:y="187.5"/>
+                      <layout:end layout:x="315" layout:y="215"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Dead" layout:id="Glyph__event4__product__Dead" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="137.5" layout:y="187.5"/>
+                      <layout:end layout:x="355" layout:y="295"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event4__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="137.5" layout:y="187.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event5" layout:reference="event5">
+            <layout:boundingBox>
+              <layout:position layout:x="120" layout:y="210"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event5__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="157.5" layout:y="222.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Healthy" layout:id="Glyph__event5__substrate__Healthy" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="315" layout:y="215"/>
+                      <layout:end layout:x="157.5" layout:y="222.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event5__substrate__Random" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="275" layout:y="135"/>
+                      <layout:end layout:x="157.5" layout:y="222.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Healthy" layout:id="Glyph__event5__product__Healthy" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="157.5" layout:y="222.5"/>
+                      <layout:end layout:x="315" layout:y="215"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Sick" layout:id="Glyph__event5__product__Sick" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="157.5" layout:y="222.5"/>
+                      <layout:end layout:x="335" layout:y="255"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event5__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="157.5" layout:y="222.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event6" layout:reference="event6">
+            <layout:boundingBox>
+              <layout:position layout:x="140" layout:y="245"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event6__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="177.5" layout:y="257.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Healthy" layout:id="Glyph__event6__substrate__Healthy" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="315" layout:y="215"/>
+                      <layout:end layout:x="177.5" layout:y="257.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event6__substrate__Random" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="275" layout:y="135"/>
+                      <layout:end layout:x="177.5" layout:y="257.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event6__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="177.5" layout:y="257.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event7" layout:reference="event7">
+            <layout:boundingBox>
+              <layout:position layout:x="160" layout:y="280"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event7__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="197.5" layout:y="292.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event7__product__Random" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="197.5" layout:y="292.5"/>
+                      <layout:end layout:x="275" layout:y="135"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event7__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="197.5" layout:y="292.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event8" layout:reference="event8">
+            <layout:boundingBox>
+              <layout:position layout:x="180" layout:y="315"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event8__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="217.5" layout:y="327.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Sick" layout:id="Glyph__event8__substrate__Sick" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="335" layout:y="255"/>
+                      <layout:end layout:x="217.5" layout:y="327.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event8__substrate__Random" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="275" layout:y="135"/>
+                      <layout:end layout:x="217.5" layout:y="327.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Sick" layout:id="Glyph__event8__product__Sick" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="217.5" layout:y="327.5"/>
+                      <layout:end layout:x="335" layout:y="255"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Healthy" layout:id="Glyph__event8__product__Healthy" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="217.5" layout:y="327.5"/>
+                      <layout:end layout:x="315" layout:y="215"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event8__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="217.5" layout:y="327.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event9" layout:reference="event9">
+            <layout:boundingBox>
+              <layout:position layout:x="200" layout:y="0"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event9__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="237.5" layout:y="12.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Sick" layout:id="Glyph__event9__substrate__Sick" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="335" layout:y="255"/>
+                      <layout:end layout:x="237.5" layout:y="12.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event9__substrate__Random" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="275" layout:y="135"/>
+                      <layout:end layout:x="237.5" layout:y="12.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Sick" layout:id="Glyph__event9__product__Sick" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="237.5" layout:y="12.5"/>
+                      <layout:end layout:x="335" layout:y="255"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Dead" layout:id="Glyph__event9__product__Dead" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="237.5" layout:y="12.5"/>
+                      <layout:end layout:x="355" layout:y="295"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event9__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="237.5" layout:y="12.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__event10" layout:reference="event10">
+            <layout:boundingBox>
+              <layout:position layout:x="220" layout:y="35"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event10__substrate__InstructionNumber" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="255" layout:y="95"/>
+                      <layout:end layout:x="257.5" layout:y="47.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Sick" layout:id="Glyph__event10__substrate__Sick" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="335" layout:y="255"/>
+                      <layout:end layout:x="257.5" layout:y="47.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__Random" layout:id="Glyph__event10__substrate__Random" layout:role="substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="275" layout:y="135"/>
+                      <layout:end layout:x="257.5" layout:y="47.5"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:glyph="Glyph__InstructionNumber" layout:id="Glyph__event10__product__InstructionNumber" layout:role="product">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="257.5" layout:y="47.5"/>
+                      <layout:end layout:x="255" layout:y="95"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__InstructionNumber" layout:reference="InstructionNumber">
+            <layout:boundingBox>
+              <layout:position layout:x="240" layout:y="80"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__Random" layout:reference="Random">
+            <layout:boundingBox>
+              <layout:position layout:x="260" layout:y="120"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__Time" layout:reference="Time">
+            <layout:boundingBox>
+              <layout:position layout:x="280" layout:y="160"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__Healthy" layout:reference="Healthy">
+            <layout:boundingBox>
+              <layout:position layout:x="300" layout:y="200"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__Sick" layout:reference="Sick">
+            <layout:boundingBox>
+              <layout:position layout:x="320" layout:y="240"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="Glyph__Dead" layout:reference="Dead">
+            <layout:boundingBox>
+              <layout:position layout:x="340" layout:y="280"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+        </layout:listOfAdditionalGraphicalObjects>
+        <layout:listOfTextGlyphs>
+          <layout:textGlyph layout:graphicalObject="Glyph__event0" layout:id="TextGlyph__event0" layout:text="event0[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="20" layout:y="35"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event1" layout:id="TextGlyph__event1" layout:text="event1[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="40" layout:y="70"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event2" layout:id="TextGlyph__event2" layout:text="event2[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="60" layout:y="105"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event3" layout:id="TextGlyph__event3" layout:text="event3[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="80" layout:y="140"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event4" layout:id="TextGlyph__event4" layout:text="event4[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="100" layout:y="175"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event5" layout:id="TextGlyph__event5" layout:text="event5[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="120" layout:y="210"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event6" layout:id="TextGlyph__event6" layout:text="event6[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="140" layout:y="245"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event7" layout:id="TextGlyph__event7" layout:text="event7[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="160" layout:y="280"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event8" layout:id="TextGlyph__event8" layout:text="event8[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="180" layout:y="315"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event9" layout:id="TextGlyph__event9" layout:text="event9[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="200" layout:y="0"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__event10" layout:id="TextGlyph__event10" layout:text="event10[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="220" layout:y="35"/>
+              <layout:dimensions layout:height="25" layout:width="75"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__InstructionNumber" layout:id="TextGlyph__InstructionNumber" layout:text="InstructionNumber[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="240" layout:y="80"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Random" layout:id="TextGlyph__Random" layout:text="Random[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="260" layout:y="120"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Time" layout:id="TextGlyph__Time" layout:text="Time[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="280" layout:y="160"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Healthy" layout:id="TextGlyph__Healthy" layout:text="Healthy[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="300" layout:y="200"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Sick" layout:id="TextGlyph__Sick" layout:text="Sick[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="320" layout:y="240"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Dead" layout:id="TextGlyph__Dead" layout:text="Dead[SimulationSize]">
+            <layout:boundingBox>
+              <layout:position layout:x="340" layout:y="280"/>
+              <layout:dimensions layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+        </layout:listOfTextGlyphs>
+      </layout:layout>
+    </layout:listOfLayouts>
+    <listOfFunctionDefinitions>
+      <functionDefinition id="uniform">
+        <annotation>
+          <distribution xmlns="http://sbml.org/annotations/distribution" definition="http://en.wikipedia.org/wiki/Uniform_distribution_(continuous)"/>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <lambda>
+            <bvar>
+              <ci> a </ci>
+            </bvar>
+            <bvar>
+              <ci> b </ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <plus/>
+                <ci> a </ci>
+                <ci> b </ci>
+              </apply>
+              <cn type="integer"> 2 </cn>
+            </apply>
+          </lambda>
+        </math>
+            </functionDefinition>
+      <functionDefinition id="min">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <lambda>
+            <bvar>
+              <ci> a </ci>
+            </bvar>
+            <bvar>
+              <ci> b </ci>
+            </bvar>
+            <piecewise>
+              <piece>
+                <ci> a </ci>
+                <apply>
+                  <lt/>
+                  <ci> a </ci>
+                  <ci> b </ci>
+                </apply>
+              </piece>
+              <otherwise>
+                <ci> b </ci>
+              </otherwise>
+            </piecewise>
+          </lambda>
+        </math>
+            </functionDefinition>
+    </listOfFunctionDefinitions>
+    <listOfUnitDefinitions>
+      <unitDefinition id="Individual">
+        <listOfUnits>
+          <unit exponent="0" kind="item" multiplier="1" scale="0"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+        <listOfParameters>
+      <parameter constant="true" id="SimulationSize" metaid="iBioSim2" units="Individual" value="1"/>
+      <parameter constant="false" id="InstructionNumber" metaid="iBioSim3" value="0">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+      </parameter>
+      <parameter constant="false" id="Random" metaid="iBioSim4" value="-1">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+      </parameter>
+      <parameter constant="false" id="Time" metaid="iBioSim5" value="-1">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+      </parameter>
+      <parameter constant="false" id="Healthy" metaid="iBioSim6" value="0">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+      </parameter>
+      <parameter constant="false" id="Sick" metaid="iBioSim7" value="0">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+      </parameter>
+      <parameter constant="false" id="Dead" metaid="iBioSim8" value="0">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+      </parameter>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="Healthy">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <selector/>
+            <vector>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+              <cn type="integer"> 1 </cn>
+            </vector>
+            <ci> d0 </ci>
+          </apply>
+        </math>
+              <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="symbol">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <ci> d0 </ci>
+            </math>
+                    </arrays:index>
+        </arrays:listOfIndices>
+      </initialAssignment>
+      <initialAssignment symbol="Sick">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <selector/>
+            <vector>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+            </vector>
+            <ci> d0 </ci>
+          </apply>
+        </math>
+              <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="symbol">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <ci> d0 </ci>
+            </math>
+                    </arrays:index>
+        </arrays:listOfIndices>
+      </initialAssignment>
+      <initialAssignment symbol="Dead">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <selector/>
+            <vector>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+              <cn type="integer"> 0 </cn>
+            </vector>
+            <ci> d0 </ci>
+          </apply>
+        </math>
+              <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="symbol">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <ci> d0 </ci>
+            </math>
+                    </arrays:index>
+        </arrays:listOfIndices>
+      </initialAssignment>
+    </listOfInitialAssignments>
+            <listOfEvents>
+      <event id="event0" metaid="iBioSim9" name="TimeIncrease" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <eq/>
+              <apply>
+                <selector/>
+                <ci> InstructionNumber </ci>
+                <ci> d0 </ci>
+              </apply>
+              <cn type="integer"> 0 </cn>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 0 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Time">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <plus/>
+                <apply>
+                  <selector/>
+                  <ci> Time </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn> 0.1 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event1" metaid="iBioSim10" name="ResultSamplePoint" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <eq/>
+              <apply>
+                <selector/>
+                <ci> InstructionNumber </ci>
+                <ci> d0 </ci>
+              </apply>
+              <cn> 0.1 </cn>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 0 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn> 0.2 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event2" metaid="iBioSim11" name="Terminate" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 0.2 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Dead </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 0 </cn>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Time </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 10 </cn>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 0 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 1 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event3" metaid="iBioSim12" name="Healthy_Transition_Lead" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <eq/>
+              <apply>
+                <selector/>
+                <ci> InstructionNumber </ci>
+                <ci> d0 </ci>
+              </apply>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 0 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Random">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <ci> uniform </ci>
+                <cn type="integer"> 0 </cn>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn> 1.5 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event4" metaid="iBioSim13" name="Healthy_Transition_0" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 1.5 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Healthy </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <geq/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 0 </cn>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.01 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Healthy">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="Dead">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 1 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event5" metaid="iBioSim14" name="Healthy_Transition_1" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 1.5 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Healthy </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <geq/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.01 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.01 </cn>
+                  <cn> 0.2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Healthy">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="Sick">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 1 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event6" metaid="iBioSim15" name="Healthy_Transition_2" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 1.5 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Healthy </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <geq/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.01 </cn>
+                  <cn> 0.2 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event7" metaid="iBioSim16" name="Sick_Transition_Lead" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <eq/>
+              <apply>
+                <selector/>
+                <ci> InstructionNumber </ci>
+                <ci> d0 </ci>
+              </apply>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 0 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Random">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <ci> uniform </ci>
+                <cn type="integer"> 0 </cn>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn> 1.5 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event8" metaid="iBioSim17" name="Sick_Transition_0" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 1.5 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Sick </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <geq/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 0 </cn>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Sick">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="Healthy">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 1 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event9" metaid="iBioSim18" name="Sick_Transition_1" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 1.5 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Sick </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <geq/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.1 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.1 </cn>
+                  <cn> 0.3 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="Sick">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="Dead">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 1 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="event10" metaid="iBioSim19" name="Sick_Transition_2" useValuesFromTriggerTime="false">
+        <arrays:listOfDimensions xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+          <arrays:dimension arrays:arrayDimension="0" arrays:id="d0" arrays:size="SimulationSize"/>
+        </arrays:listOfDimensions>
+        <trigger initialValue="false" persistent="true">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <and/>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> InstructionNumber </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn> 1.5 </cn>
+              </apply>
+              <apply>
+                <eq/>
+                <apply>
+                  <selector/>
+                  <ci> Sick </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <geq/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 0 </cn>
+                  <cn> 0.1 </cn>
+                  <cn> 0.3 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <lt/>
+                <apply>
+                  <selector/>
+                  <ci> Random </ci>
+                  <ci> d0 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+                </trigger>
+        <priority>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </priority>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <cn type="integer"> 1 </cn>
+          </math>
+                </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="InstructionNumber">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <cn type="integer"> 0 </cn>
+            </math>
+                      <arrays:listOfIndices xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1">
+              <arrays:index arrays:arrayDimension="0" arrays:referencedAttribute="variable">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">                
+                  <ci> d0 </ci>
+                </math>
+                            </arrays:index>
+            </arrays:listOfIndices>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+    </listOfEvents>
+  </model>
+</sbml>

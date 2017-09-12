@@ -1,0 +1,11 @@
+#Probability Data
+#Mon Sep 11 14:33:08 MDT 2017
+visibleLegend=true
+x.axis=
+plot.background.paint=-1
+y.axis=Percent
+chart.background.paint=-1118482
+title=Example5 simulation results
+gradient=false
+plot.range.grid.line.paint=-4144960
+shadow=false
