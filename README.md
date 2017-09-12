@@ -25,10 +25,11 @@ FILES:
 * Example*.xml - Generated SBML code representing example *
 
 #### iBioSim/projects sub directory - includes iBioSim project files
-* BioSim.prj - 
-* disease.sbol - 
-* disease.sedml - 
-##### iBioSim/projects/Example* sub directory - 
+* BioSim.prj - An iBioSim project file.
+* disease.sbol - Associated SBOL from the iBioSim project (not used for disease models).
+* disease.sedml - SED-ML file that describes the simulation experiments for the iBioSim project.
+
+##### iBioSim/projects/Example* sub directory - analysis view to setup simulation for each Example within iBioSim
 
 #### scripts sub directory - includes results and scripts to plot them
 * Example*.csv - results extracted fron iBioSim simulation for example*
@@ -51,7 +52,7 @@ Each file uses a different system and format. To run some of the files to reprod
 The following tools and versions were used to generate the results in this paper:
 * MIST Version 0.92.0.0 - Install from: https://github.com/Jacob-Barhak/MIST executed on a Windows 7 (64 bit) machine using Python 2.7.11 | Anaconda 2.4.1 (64-bit)
 * SBMLExamplesForPaper.py required libsbml experimental version 5.15.0 that can be obtained from https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/ for this work it was executed on a Windows 7 (64 bit) machine using Python 2.7.11 | Anaconda 2.4.1 (64-bit) 
-* iBioSim - Ihttp://www.async.ece.utah.edu/ibiosim
+* iBioSim - Freely available for download at: http://www.async.ece.utah.edu/ibiosim
 
 ### For MIST files
 1. Install MIST
@@ -60,9 +61,11 @@ The following tools and versions were used to generate the results in this paper
 
 ### To Regenerate iBioSim results
 0. Optional: You can regenerate the SBML files already provided in this repository using the command: python SBMLExamplesForPaper.py
-1. Install IbioSim using the instructions in: http://www.async.ece.utah.edu/ibiosim
+1. Install iBioSim using the instructions in: http://www.async.ece.utah.edu/ibiosim
 2. Run iBioSim
-3. Select from the menu: File->Open Project. Select the project in docs/iBioSim_files/projects.
+3. Select from the menu: File->Open Project. Select the project in docs/iBioSim/projects.
+4. Open the analysis view for a particular model, select a monte carlo method for simulation.
+5. Click on the run button in the menu bar to execute simulation.
 
 
 VERSION HISTORY:
@@ -81,12 +84,15 @@ Please pass questions according to implementation to:
 ### SBML Arrays
 Chris Myers
 
-myers@ece.utah.edu
+Email: myers@ece.utah.edu
+
+http://www.async.ece.utah.edu/Myers
 
 Leandro Watanabe
 
-l.watanabe@utah.edu
+Email: l.watanabe@utah.edu
 
+https://leandrohw.github.io/
 
 ### MIST
 Jacob Barhak
@@ -103,7 +109,9 @@ Many thanks to the SBML discussion groups that helped with this work by particip
 
 This work used the MIcro Simulation Tool (MIST) that is based on IEST. The IEST GPL disease modeling framework was initially supported by the Biostatistics and Economic Modeling Core of the MDRTC (P60DK020572) and by the Methods and Measurement Core of the MCDTR (P30DK092926), both funded by the National Institute of Diabetes and Digestive and Kidney Diseases. The modeling framework was initially defined as GPL and was funded by Chronic Disease Modeling for Clinical Research Innovations grant (R21DK075077) from the same institute. MIST, however, was developed without financial support.
 
+Developments for arrays within iBioSim has been supported by the National Science Foundation under Grants CCF-1218095 and CCF-1748200. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
 
+The arrays package support and its development within the JSBML API was supported by Google Summer of Code 2014. 
 
 LICENSE
 -------
