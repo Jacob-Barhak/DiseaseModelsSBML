@@ -1,0 +1,4 @@
+ColumnFilter
+[('<Header>', 'Auto Detect', ''), ('Healthy', 'Auto Detect', ''), ('Sick', 'Auto Detect', ''), ('Dead', 'Sum Over Last Observations Carried Forward', ''), ('Age', 'Average Over All Records', ''), ('BP', 'Average Over All Records', ''), ('Cost', 'Average Over All Records', ''), ('CostThisYear', 'Average Over All Records', ''), ('Treatment', 'Sum Over All Records', '')]
+StratifyBy
+'Table([[Male,[NaN,0,1]], [Age,[0,30,120]]],[[1,1],[1,1]])'

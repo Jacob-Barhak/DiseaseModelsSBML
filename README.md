@@ -20,26 +20,29 @@ FILES:
 * README.md - is the file you are reading now
 * License.txt - GNU Lesser General Public License version 3 license file
 
-### SBML generation for iBioSim
+### iBioSim directory: contains example generation code and iBioSim processing
 * SBMLExamplesForPaper.py - The python file that generates the SBML examples
-#### SBML files generated using SBMLExamplesForPaper.py
-* Example1.xml - Generated SBML code representing Example 1 
-* Example2.xml - Generated SBML code representing Example 2 
-* Example3.xml - Generated SBML code representing Example 3 
-* Example4.xml - Generated SBML code representing Example 4 
-* Example5.xml - Generated SBML code representing Example 5 
+* Example*.xml - Generated SBML code representing example *
 
-### Reference Results using MIST
-* Example1.zip - MIST model file before execution of Example 1
-* Example1_WithResults.zip - MIST model file after execution with results for Example 1
-* Example2.zip - MIST model file before execution of Example 2
-* Example2_WithResults.zip - MIST model file after execution with results for Example 2
-* Example3.zip - MIST model file before execution of Example 3
-* Example3_WithResults.zip - MIST model file after execution with results for Example 3
-* Example4.zip - MIST model file before execution of Example 4
-* Example4_WithResults.zip - MIST model file after execution with results for Example 4
-* Example5.zip - MIST model file before execution of Example 5
-* Example5_WithResults.zip - MIST model file after execution with results for Example 5
+#### iBioSim/projects sub directory - includes iBioSim project files
+* BioSim.prj - 
+* disease.sbol - 
+* disease.sedml - 
+##### iBioSim/projects/Example* sub directory - 
+
+#### scripts sub directory - includes results and scripts to plot them
+* Example*.csv - results extracted fron iBioSim simulation for example*
+* plot0*.R - R script to generate the plots for example*
+* plot.R - R script to generate all plots
+
+#### figures sub directory - generated plots
+* Example*.png - Generated plot for example*
+
+### MIST directory: contains the reference implementation using MIST
+* Example*.zip - MIST model file before execution of example *
+* Example*_WithResults.zip - MIST model file after execution with results for example *
+* Example*_short_RepOpt - Report options file for generating report within MIST for example *
+* MIST_Plots.xlsx - spreadsheet accumulating the results and generating plots for paper
 
 
 USAGE:
@@ -77,15 +80,19 @@ Please pass questions according to implementation to:
 
 ### SBML Arrays
 Chris Myers
+
 myers@ece.utah.edu
 
 Leandro Watanabe
+
 l.watanabe@utah.edu
 
 
 ### MIST
 Jacob Barhak
+
 Email: jacob.barhak@gmail.com
+
 http://sites.google.com/site/jacobbarhak/
 
 
