@@ -23,21 +23,16 @@ FILES:
 ### iBioSim directory: contains example generation code and iBioSim processing
 * SBMLExamplesForPaper.py - The python file that generates the SBML examples
 * Example*.xml - Generated SBML code representing example *
-
-#### iBioSim/projects sub directory - includes iBioSim project files
-* BioSim.prj - An iBioSim project file.
-* disease.sbol - Associated SBOL from the iBioSim project (not used for disease models).
-* disease.sedml - SED-ML file that describes the simulation experiments for the iBioSim project.
-
-##### iBioSim/projects/Example* sub directory - analysis view to setup simulation for each Example within iBioSim
+* Disease.omex - an archive containing all of the information to reproduce the results.
 
 #### scripts sub directory - includes results and scripts to plot them
-* Example*.csv - results extracted fron iBioSim simulation for example*
 * plot0*.R - R script to generate the plots for example*
 * plot.R - R script to generate all plots
+* util.R - R script that has a function to export statistics to a csv file.
+* parser.py - a python script to convert tsd to csv files.
 
-#### figures sub directory - generated plots
-* Example*.png - Generated plot for example*
+#### stats_analysis sub directory - includes statistical data from iBioSim
+* Example*_n=*_*.csv - Includes the min, max, mean, and std. dev. for each variable in each example, for 1, 10, and 100 runs.
 
 ### MIST directory: contains the reference implementation using MIST
 * Example*.zip - MIST model file before execution of example *
@@ -63,9 +58,10 @@ The following tools and versions were used to generate the results in this paper
 0. Optional: You can regenerate the SBML files already provided in this repository using the command: python SBMLExamplesForPaper.py
 1. Install iBioSim using the instructions in: http://www.async.ece.utah.edu/ibiosim
 2. Run iBioSim
-3. Select from the menu: File->Open Project. Select the project in docs/iBioSim/projects.
-4. Open the analysis view for a particular model, select a monte carlo method for simulation.
-5. Click on the run button in the menu bar to execute simulation.
+3. Select from the menu: File->New->Project.
+4. Import the Disease.omex archive and the results will be generated.
+5. Run python parser.py <directory> where directory is where the tsd files were generated inside the project directory.
+6. Create an Example* directory for each example where the R scripts are located. Copy the converted csv files to their corresponding Example* directory. Execute plot.R. 
 
 
 VERSION HISTORY:
