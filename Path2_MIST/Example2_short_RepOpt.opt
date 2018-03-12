@@ -1,2 +1,0 @@
-ColumnFilter
-[('<Header>', 'Auto Detect', ''), ('Healthy', 'Auto Detect', ''), ('Sick', 'Auto Detect', ''), ('Dead', 'Sum Over Last Observations Carried Forward', '')]
