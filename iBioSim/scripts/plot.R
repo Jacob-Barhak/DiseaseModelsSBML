@@ -1,20 +1,14 @@
 #*******************************************************************************
+#  
+# This file is part of iBioSim. Please visit <http://www.async.ece.utah.edu/ibiosim>
+# for the latest version of iBioSim.
 #
-# Copyright (C) 2017 Jacob Barhak, Leandro Watanabe, Chris Myers 
-# This file is part of the SBML Arrays Examples.
+# Copyright (C) 2017 University of Utah
 #
-# This script is free software: you can redistribute it and/or 
-# modify it under the terms of the GNU Lesser General Public License as 
-# published by the Free Software Foundation, either version 3 of the 
-# License, or (at your option) any later version.
-#
-# ADDITIONAL CLARIFICATION
-# This script is distributed in the hope that it will be 
-# useful, but "as is" and WITHOUT ANY WARRANTY of any kind, including any 
-# warranty that it will not infringe on any property rights of another party 
-# or the IMPLIED WARRANTIES OF MERCHANTABILITY or FITNESS FOR A PARTICULAR 
-# PURPOSE. THE AUTHORS assume no responsibilities with respect to the use 
-# of it.
+# This library is free software; you can redistribute it and/or modify it
+# under the terms of the Apache License. A copy of the license agreement is provided
+# in the file named "LICENSE.txt" included with this software distribution
+# and also available online at <http://www.async.ece.utah.edu/ibiosim/License>.
 #  
 #*******************************************************************************
 
@@ -23,3 +17,21 @@ source("plot02.R")
 source("plot03.R")
 source("plot04.R")
 source("plot05.R")
+
+run_example1(1)
+run_example2(1)
+run_example3(1)
+run_example4(1)
+run_example5(1)
+
+run_example1(10)
+run_example2(10)
+run_example3(10)
+run_example4(10)
+run_example5(10)
+
+run_example1(100)
+run_example2(100)
+run_example3(100)
+run_example4(100)
+run_example5(100)
