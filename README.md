@@ -27,7 +27,6 @@ FILES:
 #### iBioSim/SBML sub directory - containing SBML files and the python script that generated them that were passed to iBioSim
 * SBMLExamplesForPaper.py - The python file that generates the SBML examples
 * Example*.xml - Generated SBML code representing example *
-* Disease.omex - an archive containing all of the information to reproduce the results.
 
 #### scripts sub directory - includes results and scripts to plot them
 * plot0*.R - R script to generate the plots for example*
@@ -90,6 +89,12 @@ The following tools and versions were used to generate the results in this paper
 6. Create an Example* directory for each example where the R scripts are located. Copy the converted csv files to their corresponding Example* directory. Alternatively, you can just extract iBioSim/simulation_results.zip in scripts.
 7. Execute plot.R.
 
+### To Compare results and generate plots
+1. Copy all iBioSim results to a sub-directory called results in the same directory MIST results reside
+2. Copy the file CompareResults.py to the MIST directory where MIST results exist
+3. Type the command "python CompareResults.py"
+
+
 
 VERSION HISTORY:
 ----------------
@@ -98,6 +103,7 @@ https://groups.google.com/forum/#!topic/sbml-discuss/gQsLHmP5i9U
 
 First upload to Github on 9-Sep-2017 - no version number assigned
 Major update on 12-MArch-2018
+Minor issues merged on on 18-MArch-2018
 
 
 DEVELOPER CONTACT INFO:
