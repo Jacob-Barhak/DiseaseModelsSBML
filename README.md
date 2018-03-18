@@ -87,7 +87,8 @@ The following tools and versions were used to generate the results in this paper
 3. Select from the menu: File->New->Project.
 4. Import the Disease.omex archive and the results will be generated.
 5. Run python parser.py <directory> where directory is where the tsd files were generated inside the project directory.
-6. Create an Example* directory for each example where the R scripts are located. Copy the converted csv files to their corresponding Example* directory. Execute plot.R.
+6. Create an Example* directory for each example where the R scripts are located. Copy the converted csv files to their corresponding Example* directory. Alternatively, you can just extract iBioSim/simulation_results.zip in scripts.
+7. Execute plot.R.
 
 
 VERSION HISTORY:
